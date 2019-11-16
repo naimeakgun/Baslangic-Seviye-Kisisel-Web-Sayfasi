@@ -1,0 +1,281 @@
+body{
+	background-image: url("stars-nayme.png");
+}
+.menu{
+	overflow: hidden;
+	width:100%;
+	position: relative;
+	
+}
+.menu ul { 
+    list-style-type: none; 
+	text-align:center;
+	width:100%;
+   }
+   
+p{
+	color:white;
+}   
+.menu li {
+   display: block;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   margin-right:10px;
+   float: left;
+   overflow:hidden;
+   
+}
+.infotable li{
+   display: block;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   margin-right:20px;
+   margin-left:40px;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding:1px;
+	text-decoration: none;
+	border: 1px solid #ff751a; 
+  
+}
+
+a:hover {
+	background-color: #ff751a;
+	vertical-align: center;
+	
+}
+.container img{
+	width: 200px;
+	height: 200px;
+	
+}
+.container{
+	overflow: hidden;
+	position: absolute;
+	top:20%;
+	left: 0%;
+	width: 100%;
+	
+}
+.infotable{
+    text-align: center;
+	width: 800px;
+	border-radius:25%;
+	border: 1px solid #ff751a;
+	padding: 20px;
+	
+}
+.infotable2{
+    text-align: center;
+	width: 800px;
+	border-radius:25%;
+	border: 1px solid #ff751a;
+	padding: 20px 20px;;
+	
+}
+.infotable3{	
+    text-align: center;
+	width: 800px;
+	border-radius:25%;
+	border: 1px solid #ff751a;
+	padding: 20px 20px;
+	text-align: center;
+}
+.yukaritable{
+	position: fixed;
+	top:70%;
+	margin-left:50px;
+}
+.asagitable{
+	position: fixed;
+	top:80%;
+	margin-left:50px;
+}
+
+.yukaritable img{
+	width: 40px;
+	height: 40px;
+	padding : 5px;
+	border: 1px solid #ff751a;
+}
+.asagitable img{
+	width: 40px;
+	height: 40px;
+	padding : 5px;
+	border: 1px solid #ff751a;
+}
+button{
+	border-radius:30%;
+	background-color:#ff751a;
+	padding: 10px 10px;
+}
+.infotable img{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+}
+.iletisimtable2 img{
+	width:40px;
+	height:40px;
+	border: 3px solid #ff751a;
+	padding: 5px;
+}
+.iletisim{
+	overflow: hidden;
+	position: relative;
+	height:10%;
+	width:100%;
+	margin-left: 0;
+	padding: 20px 20px;
+	
+}
+.iletisimtable{
+	position:relative;
+	width: 800px;
+	border-radius:25%;
+	text-align: center;
+	border: 1px solid #ff751a;
+}
+
+
+
+* {box-sizing: border-box;}
+.mySlides {
+	display: none;
+	height:400px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.wrapper{
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapper h5{
+	text-align: center;
+	color: white;
+}
+
+.line{
+	height: 15px;
+	position: relative; 
+}
+
+.line:before{
+	content: '';
+	width: 270px;
+	position: absolute;
+	left: 0;
+	height: 15px;
+	top: 0;
+	z-index: -2;
+	background: white;
+}
+
+.line:after{
+	content: '';
+	background: #ff751a;
+	height: 15px;
+	transition: 0.8s;
+	display: block;
+	width: 250px;
+	animation: animate 1 10s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.line1:after{
+	max-width: 200px;
+}
+.line2:after{
+	max-width: 150px;
+}
+.line3:after{
+	max-width: 125px;
+}
+.line5:after{
+	max-width: 225px;
+}
+.line6:after{
+	max-width: 100px;
+}
+.line7:after{
+	max-width: 125px;
+}
+
+@keyframes animate{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
