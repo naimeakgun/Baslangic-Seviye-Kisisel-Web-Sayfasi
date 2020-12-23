@@ -1,1 +1,1 @@
-'web.itu.edu.tr/akgunn17' 
+# Pure Html, Css ve JS Kullanılarak Web Sayfası Geliştirilmesi
