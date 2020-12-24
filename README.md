@@ -1,1 +1,0 @@
-# Baslangic-Seviye-Kisisel-Web-Sayfasi
