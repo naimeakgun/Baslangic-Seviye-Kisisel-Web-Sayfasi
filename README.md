@@ -1,1 +1,1 @@
-> Html, Css ve JS kullanılarak basit düzeyde web sayfası geliştirilmiştir.
+> Html, Css ve Js kullanılarak basit düzeyde web sayfası geliştirilmiştir.
