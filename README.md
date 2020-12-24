@@ -1,1 +1,1 @@
-# Pure Html, Css ve JS Kullanılarak Web Sayfası Geliştirilmesi
+> Html, Css ve JS kullanılarak basit düzeyde web sayfası geliştirilmiştir.
